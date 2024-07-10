@@ -16,7 +16,7 @@ void goWaypoint()
  while (true)  
   {                                                                // Start of Go_Home procedure 
   bluetooth();                                                     // Run the Bluetooth procedure to see if there is any data being sent via BT
-  if (blueToothVal == 5){break;}                                   // If a 'Stop' Bluetooth command is received then break from the Loop
+  if (blueToothVal == 5){break;}   //stop car                                // If a 'Stop' Bluetooth command is received then break from the Loop
   getCompass();                                                    // Update Compass heading                                          
   getGPS();                                                        // Tiny GPS function that retrieves GPS data - update GPS location// delay time changed from 100 to 10
   
